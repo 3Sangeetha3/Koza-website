@@ -1,0 +1,34 @@
+.navbar {
+  font-size: 18px;
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+  padding: 0 20px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .nav-link.active {
+  color: coral;
+}
+
+.navbar i:hover,
+.navbar i.active {
+  color: lightblue;
+}
+
+.navbar i {
+  font-size: 21px;
+  padding: 0 7px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s eae;
+  color: coral;
+}
+
+#nav-icons {
+  margin-left: 90px;
+  margin-right: 50px;
+}
