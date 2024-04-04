@@ -1,5 +1,6 @@
 #hintrc
 .hintrc
 
-#nodemodules
-.nodemoules
+#dependencies
+*node_modules/
+
