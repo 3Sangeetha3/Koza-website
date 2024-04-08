@@ -1,3 +1,5 @@
+/* Nabar CSS */
+
 .navbar {
   font-size: 18px;
   color: white;
@@ -29,6 +31,45 @@
 }
 
 #nav-icons {
-  margin-left: 90px;
+  margin-left: 45px;
   margin-right: 50px;
+}
+
+#logo-img {
+  height: 90px;
+  width: 280px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Home Section CSS */
+
+#home span {
+  color: coral;
+}
+
+#home {
+  background-image: url('images/home_img_1.jpg');
+  width: 100%;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+}
+
+button {
+  font-size: 0.8rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background-color: #1d1d1d;
+  color: aliceblue;
+  padding: 13px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color:#57a5b8;
+  
 }
