@@ -3,6 +3,8 @@
 .navbar {
   font-size: 18px;
   color: white;
+  top: 0;
+  left: 0;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link{
@@ -34,12 +36,55 @@
   margin-left: 45px;
   margin-right: 50px;
 }
+/* Mobile Nav */
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+#nav-bar-icon {
+  font-size: 1.5rem;
+  padding: 7px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+#nav-bar-icon:hover,
+#nav-bar-icon .active {
+  color: lightblue;
+}
+@media only screen and (max-width: 991px) {
+  body > nav > div > button:hover,
+  body > nav > div > button:focus{
+    background-color: coral;
+  }
+  body > nav > div > button:hover #nav-bar-icon,
+  body > nav > div > button:focus #nav-bar-icon{
+    color: lightblue;
+  }
+  
+  #nav-icons {
+    margin: 0px;
+  }
+
+  #navbarSupportedContent > ul{
+    margin: 1rem;
+    justify-content: flex-end;
+    align-items: right;
+    text-align: right;
+  }
+  
+  #navbarSupportedContent > ul > li:nth-child(n) > a{
+    padding: 10px 0px;
+  }
+}
 
 #logo-img {
-  height: 90px;
-  width: 280px;
+  height: 80px;
+  width: 220px;
   object-fit: cover;
   border-radius: 15px;
+  margin-left: 20px;
 }
 
 /* Home Section CSS */
@@ -49,17 +94,26 @@
 }
 
 #home {
-  background-image: url('images/home_img_1.jpg');
+  background-image: url('images/home_img_1.webp');
   width: 100%;
-  height: 1000px;
-  background-position: center;
+  height: 100vh;
+  background-position: top 60px center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-button {
+.text-container {
+  margin-left: 150px;
+}
+
+#home button {
   font-size: 0.8rem;
   font-weight: 700;
   outline: none;
+  border-radius: 2px;
   border: none;
   background-color: #1d1d1d;
   color: aliceblue;
@@ -69,7 +123,7 @@ button {
   transition: 0.5s ease-in-out;
 }
 
-button:hover {
-  background-color:#57a5b8;
+#home button:hover {
+  background-color: coral;
   
 }
