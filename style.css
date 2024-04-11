@@ -157,8 +157,9 @@
 
 #new .one .details h2 {
   color: aliceblue;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 #new .one .details button {
@@ -309,7 +310,7 @@
 
 #banner h1 {
   color: aliceblue;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #banner button {
