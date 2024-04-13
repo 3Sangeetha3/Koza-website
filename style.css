@@ -410,6 +410,10 @@ footer #logo-img-footer {
   border-radius: 15px;
 }
 
+footer .footer-img {
+  height: 90px;
+  width: 150px;
+}
 /* Cart */
 
 #cart-container table{
