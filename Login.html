@@ -15,6 +15,56 @@
     <!-- Bootstrap icons cdn-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <style>
+        h3 {
+            color: #343a40;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .login-btn {
+            width: 30%;
+            background-color: #343a40;
+            color: aliceblue;
+            font-size: 1.2rem;
+            font-weight: 600;
+            /* center */
+            display: block;
+            margin: 0 auto; 
+        }
+
+        #loginForm {
+            width: 80%;
+            margin: 0 auto;
+        }
+        #signUpForm input, #loginForm input {
+            border: 1px solid #343a40;
+            padding: 10px;
+        }
+        #signUpForm input:focus, #loginForm input:focus{
+            background-color: aliceblue;
+        }
+        #signUpForm button, #loginForm button {
+            background-color: #343a40;
+            color: aliceblue;
+            border: none;
+            font-weight: 600;
+        }
+        #signUpForm button:hover, #loginForm button:hover {
+            background-color: coral;
+            color: aliceblue;
+            border: none;
+        }
+        #showSignUp {
+            color: coral;
+            font-weight: 600;
+        }
+        #showSignUp:hover {
+            color: #343a40;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
@@ -28,7 +78,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./Shop.html">Shop</a>
@@ -44,7 +94,7 @@
                     </li>
                     <li class="nav-item" id="nav-icons">
                         <!-- <i class="bi bi-search"></i> -->
-                        <i class="bi bi-person-fill active"></i>
+                        <a href="Login.html"><i class="bi bi-person-fill active"></i></a>
                         <a href="Cart.html"><i class="bi bi-bag-heart-fill"></i></a>
                     </li>
                 </ul>
@@ -53,75 +103,56 @@
     </nav>
 
     <!-- login section -->
-    <!-- <section id="featured" class="my-5 pb-5">
-        <div class="container text-center mt-5 py-5">
-            <h3 class="mt-5 pt-5">Login</h3>
+    <section id="featured" class="mt-3 pt-3">
+        <div class="container text-center mt-5 pt-5">
+            <h3 id="form-heading" class="mt-5 pt-5">Login</h3>
             <hr class="border border-danger border-2 opacity-75 mx-auto">
-            <p style="font-size: 18px">Welcome to our website <span style="color: coral" >Koza.</span> </p>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="container">
+    <div class="container mt-5">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-12 mx-auto">
-                <span id="login-icon"><i class="bi bi-person-square"></i></span>
+            <div class="col-lg-6 col-md-6 col-12 mt-0">
+                <img src="images/login.png" class="img-fluid" alt="login-img">
             </div>
-            <div class="col-lg-6 col-md-6 col-12 mx-auto">
-                <form action="login.php" method="POST">
-                    <div class="container mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <div class="col-lg-6 col-md-6 col-12 mt-5 pt-5">
+                <form id="loginForm" action="login.php" method="POST">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
                     </div>
-                    <div class="container mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
                     </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="submit" class="login-btn btn btn-dark py-2 mt-4 mb-3">Login</button>
+                    <p class="py-2 text-center">Don't have an account? <a href="#" id="showSignUp" onclick="document.getElementById('form-heading').innerText='Sign Up'">Sign up</a></p>
+                </form>
+                    <p id="loginSuccess" class="alert alert-success" style="display: none;">You have logged in successfully!</p>
+                    <!-- <p>Don't have an account? <a href="#" id="showSignUp">Sign up</a></p> -->
+                    <form id="signUpForm" action="signup.php" method="POST" style="display: none;">
+                    <!-- Add your sign-up form fields here -->
+                    <div class="form-group">
+                    <label for ="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                    <label for ="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                    <label for ="password">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="form-group">
+                    <label for ="confirmPassword">Confirm Password</label>
+                    <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Sign Up</button>
                 </form>
             </div>
         </div>
-    </section> -->
-
-    <section class="vh-100 py-5 my-5">
-        <div class="container-fluid my-4">
-          <div class="row">
-            <div class="col-sm-6 text-black">
-      
-              <div class="px-5 ms-xl-4">
-                <i class="fas fa-crow fa-2x me-3 pt-5 mt-xl-4" style="color: #709085;"></i>
-              </div>
-      
-              <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-      
-                <form style="width: 23rem;">
-      
-                  <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
-      
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="email" id="form2Example18" class="form-control form-control-lg" />
-                    <label class="form-label" for="form2Example18">Email address</label>
-                  </div>
-      
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="password" id="form2Example28" class="form-control form-control-lg" />
-                    <label class="form-label" for="form2Example28">Password</label>
-                  </div>
-      
-                  <div class="pt-1 mb-4">
-                    <button data-mdb-button-init data-mdb-ripple-init class="btn btn-info btn-lg btn-block" type="button">Login</button>
-                  </div>
-      
-                  <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
-                  <p>Don't have an account? <a href="#!" class="link-info">Register here</a></p>
-      
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+    </div>
 
     <!-- Footer section -->
     <footer class="mt-5 p-5 bg-dark">
@@ -185,6 +216,24 @@
         </div>
         </div>  
     </footer>
+
+    <script>
+        $(document).ready(function() {
+            $('#loginForm').submit(function(e) {
+                e.preventDefault();
+                // Add your AJAX call here to submit the form
+                // On success, show the success message
+                $('#loginSuccess').show();
+            });
+
+            $('#showSignUp').click(function(e) {
+                e.preventDefault();
+                $('#signUpForm').show();
+                $('#loginForm').hide();
+            });
+            $(this)[0].reset();
+        });
+    </script>
     <!-- bootstarp cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
