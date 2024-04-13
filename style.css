@@ -409,3 +409,60 @@ footer #logo-img-footer {
   object-fit: cover;
   border-radius: 15px;
 }
+
+/* Cart */
+
+#cart-container table{
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#cart-container table thead {
+  font-weight: 700;
+}
+
+#cart-container table thead td {
+  background-color: coral;
+  color: aliceblue;
+  border: none;
+  padding: 8px 5px;
+}
+
+#cart-container table td {
+  border: 1px solid #343a40;
+  text-align: center;
+  border-top:none;
+}
+
+#cart-container table td:nth-child(1) {
+  width: 100px;
+}
+
+#cart-container table td:nth-child(2),
+#cart-container table td:nth-child(3){
+  width: 200px;
+}
+
+#cart-container table td:nth-child(4),
+#cart-container table td:nth-child(5),
+#cart-container table td:nth-child(6){
+  width: 170px;
+}
+
+#cart-container table tbody img{
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  padding: 15px;
+}
+
+#cart-container table tbody i {
+  color: #343a40;
+}
+
+#cart-container table tbody h5 {
+  color: #343a40;
+  font-size: 18px;
+  font-weight: 500;
+}
