@@ -2,14 +2,14 @@
 
 const productList = {
     "1": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
+        "name": "Yogi Leather Satchel",
+        "price": "43990",
         "image": "/images/leather/products/58image.jpg"
     },
     "2": {
-        "name": "Yogi Leather Satchel",
+        "name": "Wellesley Women's Laptop Bag",
         "price": "3990",
-        "image": "/images/leather/products/41image.jpg"
+        "image": "/images/leather/products/78image.jpg"
     },
     "3": {
         "name": "Tudor Leather Messenger Bag",
@@ -17,14 +17,14 @@ const productList = {
         "image": "/images/leather/products/113image.jpg"
     },
     "4": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Classic Leather Flap",
+        "price": "5990",
+        "image": "/images/leather/products/111image.jpg"
     },
     "5": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Astor Leather Laptop Sleeve",
+        "price": "5990",
+        "image": "/images/leather/products/49image.jpg"
     },
     "6": {
         "name": "The Chronicle Leather Backpack Canvas",
@@ -32,14 +32,14 @@ const productList = {
         "image": "/images/leather/products/39image.jpg"
     },
     "7": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Business Card Case",
+        "price": "990",
+        "image": "/images/leather/products/44image.jpg"
     },
     "8": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Hamlet Leather Satchel",
+        "price": "6990",
+        "image": "/images/leather/products/76image.jpg"
     },
     "9": {
         "name": "Wallstreeter Leather Laptop Sleeve",
