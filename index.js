@@ -47,9 +47,9 @@ const productList = {
         "image": "/images/leather/products/41image.jpg"
     },
     "10": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Aberdeen Leather Folder",
+        "price": "2990",
+        "image": "/images/leather/products/60image.jpg"
     },
     "11": {
         "name": "Wallstreeter Leather Laptop Sleeve",
