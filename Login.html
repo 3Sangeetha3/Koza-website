@@ -116,7 +116,7 @@
                 <img src="images/login.png" class="img-fluid" alt="login-img">
             </div>
             <div class="col-lg-6 col-md-6 col-12 mt-5 pt-5">
-                <form id="loginForm" action="login.php" method="POST">
+                <form id="loginForm" action="" onsubmit="login()">
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
@@ -218,21 +218,21 @@
     </footer>
 
     <script>
-        $(document).ready(function() {
-            $('#loginForm').submit(function(e) {
-                e.preventDefault();
-                // Add your AJAX call here to submit the form
-                // On success, show the success message
-                $('#loginSuccess').show();
-            });
+        // $(document).ready(function() {
+        //     $('#loginForm').submit(function(e) {
+        //         e.preventDefault();
+        //         // Add your AJAX call here to submit the form
+        //         // On success, show the success message
+        //         $('#loginSuccess').show();
+        //     });
 
-            $('#showSignUp').click(function(e) {
-                e.preventDefault();
-                $('#signUpForm').show();
-                $('#loginForm').hide();
-            });
-            $(this)[0].reset();
-        });
+        //     $('#showSignUp').click(function(e) {
+        //         e.preventDefault();
+        //         $('#signUpForm').show();
+        //         $('#loginForm').hide();
+        //     });
+        //     $(this)[0].reset();
+        // });
     </script>
     <!-- bootstarp cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
