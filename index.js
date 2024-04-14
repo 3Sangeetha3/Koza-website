@@ -59,3 +59,10 @@ function contactUs() {
 
     window.location.href = '/index.html';
 }
+
+function signUp(){
+    event.preventDefault();
+    let email = document.getElementById('email').value;
+    alert('Signed up successfully as ' + email);
+    window.location.href = '/Login.html';
+}
