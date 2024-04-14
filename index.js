@@ -1,15 +1,145 @@
 // TODO: Add all products to the productList object
 
 const productList = {
+    "1": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/58image.jpg"
+    },
+    "2": {
+        "name": "Yogi Leather Satchel",
+        "price": "3990",
+        "image": "/images/leather/products/41image.jpg"
+    },
     "3": {
         "name": "Tudor Leather Messenger Bag",
         "price": "5990",
         "image": "/images/leather/products/113image.jpg"
     },
+    "4": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "5": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
     "6": {
         "name": "The Chronicle Leather Backpack Canvas",
         "price": "8990",
         "image": "/images/leather/products/39image.jpg"
+    },
+    "7": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "8": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "9": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "10": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "11": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "12": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "13": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "14": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "15": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "16": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "17": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "18": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "19": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "20": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "21": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "22": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "23": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "24": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "25": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "26": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "27": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
+    },
+    "28": {
+        "name": "Wallstreeter Leather Laptop Sleeve",
+        "price": "4990",
+        "image": "/images/leather/products/41image.jpg"
     }
 }
 
