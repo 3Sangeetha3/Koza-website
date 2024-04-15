@@ -3,7 +3,7 @@
 const productList = {
     "1": {
         "name": "Yogi Leather Satchel",
-        "price": "43990",
+        "price": "4990",
         "image": "/images/leather/products/58image.jpg"
     },
     "2": {

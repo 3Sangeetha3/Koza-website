@@ -80,30 +80,30 @@
     <section class="container sproduct my-5 pt-5">
         <div class="row mt-5">
             <div class="col-lg-5 col-md-12 col-12">
-                <img class="img-fluid w-100 pb-5" src="images/leather/products/39image.jpg" id="MainImg" alt="product-img">
+                <img class="img-fluid w-100 py-5" src="images/leather/products/39image.jpg" id="MainImg" alt="product-img">
                 <div class="small-img-group">
                     <div class="small-img-col">
                         <img src="images/leather/products/39image.jpg" width="100%" class="small-img" alt="product-img">
                     </div>
                     <div class="small-img-col">
-                        <img src="images/leather/products/40image.jpg" width="100%" class="small-img" alt="product-img">
+                        <img src="images/leather/products/38image.jpg" width="100%" class="small-img" alt="product-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/leather/products/40image.png" width="100%" class="small-img" alt="product-img">
                     </div>
                     <div class="small-img-col">
                         <img src="images/leather/products/38image.jpg" width="100%" class="small-img" alt="product-img">
                     </div>
-                    <div class="small-img-col">
-                        <img src="images/leather/products/40image.jpg" width="100%" class="small-img" alt="product-img">
-                    </div>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-12">
-                <h6 class="text-secondary mt-5 pt-5">Home / Product</h6>
-                <h3 class="pt-3 pb-2">The Chronicle Leather Backpack Canvas</h3>
-                <h2 class="p">Rs. 8,990</h2>
-<span class="bold">Quantity: </span><input id="noi" class="my-3" type="number" value="1" min="1"><br>
+                <h6 class="text-secondary mt-5"`~ onclick="window.location.href = 'sproduct.html';">Home / Product</h6>
+                <h3 class="pt-3 pb-2">Yogi Leather Satchel</h3>
+                <h2 class="p">Rs. 3,990</h2>
+                <span class="bold">Quantity: </span><input id="noi" class="my-3" type="number" value="1" min="1"><br>
                 <button class="buy-btn" onclick="addToCart()">ADD TO CART</button>
                 <h4 class="mt-5 pb-3">Product Details</h4>
-                <span class="text-secondary">The cornerstone of our 'Sighs of Nature' collection, the Chronicle Leather Backpack (Canvas) has to be the perfect expression of effortless vintage chic. It is equal parts rugged and refined, this unisex backpack combines sumptuous calfskin leather and traditional craftsmanship with efficient modern design. Lined in fabric with unlined pocket flaps and a drawstring closure, it accommodates your laptop and e-help as easily as it does your outdoor gear. This backpack chronicles a time when man and woman were at their happiest in the great outdoors. </span>
+                <span class="text-secondary">Our ongoing quest for perfection takes us on many journeys, exploring the world for inspiration. The most important one has always been within. Presenting the Yogi leather satchel bag - organic in its simplicity, intuitive in its functionality and light as a Himalayan cloud. A satchel for any road less travelled - in comfort and style.</span>
             </div>
         </div>
     </section>
@@ -152,7 +152,7 @@
                 </div>
                 <h5 class="product-name">The Chronicle Leather Backpack Canvas</h5>
                 <h4 class="product-price">Rs. 8,990</h4>
-                <button class="buy-btn" onclick="window.location.href = 'sproduct6.html';">Buy Now</button>
+                <button class="buy-btn" onclick="window.location.href = 'sproduct7.html';">Buy Now</button>
             </div>
             <div class="product container text-center col-lg-3 col-md-4 col-12">
                 <img class="img-fluid" src="images/leather/products/44image.jpg" alt="">
@@ -183,7 +183,7 @@
             <ul class="text-uppercase list-unstyled">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Shop.html">Shop</a></li>
-                <li><a href="./About.html">About</a></li>
+                <li><a href="About.html">About</a></li>
                 <li><a href="./ContactUs.html">Contact us</a></li>
                 <li><a href="Cart.html">Cart</a></li>
             </ul>
@@ -252,22 +252,6 @@
         }
         smallimg[3].onclick = function(){
             MainImg.src = smallimg[3].src;
-        }
-    </script>
-
-    <script>
-        function addToCart() {
-            let productId = window.location.href.split('/').pop().split('.')[0];
-            productId = productId.charAt(productId.length - 1);
-            let noi = document.getElementById('noi').value;
-            let cart = window.localStorage.getItem('cart');
-            if(cart == null) {
-                cart = {};
-            } else {
-                cart = JSON.parse(cart);
-            }
-            cart[productId] = noi;
-            window.localStorage.setItem('cart', JSON.stringify(cart));
         }
     </script>
     
