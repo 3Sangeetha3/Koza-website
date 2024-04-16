@@ -77,9 +77,9 @@ const productList = {
         "image": "/images/leather/products/80image.jpg"
     },
     "16": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
+        "name": "Sioux Leather Saddlebag",
         "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "image": "/images/leather/products/53image.jpg"
     },
     "17": {
         "name": "Wallstreeter Leather Laptop Sleeve",
