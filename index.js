@@ -82,9 +82,9 @@ const productList = {
         "image": "/images/leather/products/53image.jpg"
     },
     "17": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Twisty Lock Wallet",
+        "price": "1990",
+        "image": "/images/leather/products/97image.jpg"
     },
     "18": {
         "name": "Wallstreeter Leather Laptop Sleeve",
