@@ -535,3 +535,9 @@ footer .footer-img {
     display: flex;
     justify-content: flex-end;
 }        
+
+
+#trash-btn {
+  border: none;
+  background-color: transparent;
+}

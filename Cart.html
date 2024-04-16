@@ -101,15 +101,15 @@
 
     <section id="cart-bottom" class="container">
         <div class="row">
-            <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
+            <!-- <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
                 <div>
                     <h5>COUPON</h5>
                     <p>Enter the coupon code if you have one.</p>
                     <input type="text" placeholder="Coupon code">
                     <button>APPLY COUPON</button>
                 </div>        
-            </div>
-            <div class="Total col-lg-6 col-md-6 col-12 mb-4">
+            </div> -->
+            <div class="Total col-lg-8 col-md-6 col-12 mb-4 mx-auto">
                 <div>
                     <h5>CART TOTAL</h5>
                     <div class="d-flex justify-content-between">
@@ -280,7 +280,7 @@
                 const total = product.price * quantity;
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
-                    <td><button onclick="removeFromCart(${id})"><i class="bi bi-trash3"></i></td>
+                    <td><button id ="trash-btn" onclick="removeFromCart(${id})"><i class="bi bi-trash3"></i></td>
                     <td><img src="${product.image}" alt="product"></td>
                     <td><h5>${product.name}</h5></td>
                     <td><h5>Rs. ${product.price}</h5></td>
