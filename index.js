@@ -72,9 +72,9 @@ const productList = {
         "image": "/images/leather/products/82image.jpg"
     },
     "15": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Strawberry Fields Leather Backpack",
+        "price": "3990",
+        "image": "/images/leather/products/80image.jpg"
     },
     "16": {
         "name": "Wallstreeter Leather Laptop Sleeve",
