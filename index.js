@@ -62,9 +62,9 @@ const productList = {
         "image": "/images/leather/products/68image.jpg"
     },
     "13": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Dahlia Leather Clutch",
+        "price": "1290",
+        "image": "/images/leather/products/70image.jpg"
     },
     "14": {
         "name": "Wallstreeter Leather Laptop Sleeve",
