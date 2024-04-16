@@ -57,9 +57,9 @@ const productList = {
         "image": "./images/leather/products/15image.jpg"
     },
     "12": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Blossom Leather Sling",
+        "price": "1990",
+        "image": "/images/leather/products/68image.jpg"
     },
     "13": {
         "name": "Wallstreeter Leather Laptop Sleeve",
