@@ -87,9 +87,9 @@ const productList = {
         "image": "/images/leather/products/97image.jpg"
     },
     "18": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Luggage Flier Tag",
+        "price": "400",
+        "image": "/images/leather/products/105image.jpg"
     },
     "19": {
         "name": "Wallstreeter Leather Laptop Sleeve",
