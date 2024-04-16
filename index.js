@@ -92,9 +92,9 @@ const productList = {
         "image": "/images/leather/products/105image.jpg"
     },
     "19": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Casual Leather Belt",
+        "price": "1990",
+        "image": "/images/leather/products/108image.jpg"
     },
     "20": {
         "name": "Wallstreeter Leather Laptop Sleeve",
