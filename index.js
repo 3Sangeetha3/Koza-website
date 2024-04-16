@@ -52,9 +52,9 @@ const productList = {
         "image": "/images/leather/products/60image.jpg"
     },
     "11": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Doc Holiday Leather Briefcase",
+        "price": "2990",
+        "image": "./images/leather/products/15image.jpg"
     },
     "12": {
         "name": "Wallstreeter Leather Laptop Sleeve",
@@ -145,7 +145,16 @@ const productList = {
 
 function addToCart() {
     let productId = window.location.href.split('/').pop().split('.')[0];
-    productId = productId.charAt(productId.length - 1);
+    // productId = productId.charAt(productId.length - 1);
+    // if(productId.length == 9)
+    // {
+    //     productId = productId[8];
+    // }
+    // else if(productId.length == 10)
+    // {
+    //     productId = productId[8] + productId[9];
+    // }
+    productId = productId.length == 9 ? productId[8] : productId[8] + productId[9];
     let noi = document.getElementById('noi').value;
     let cart = window.localStorage.getItem('cart');
     if(cart == null) {
