@@ -541,3 +541,8 @@ footer .footer-img {
   border: none;
   background-color: transparent;
 }
+
+#cart-table > tbody #trash-btn{
+  border: none;
+  background-color: transparent;
+}
