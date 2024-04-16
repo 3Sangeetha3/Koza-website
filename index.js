@@ -102,44 +102,9 @@ const productList = {
         "image": "/images/leather/products/86image.jpg"
     },
     "21": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
-    },
-    "22": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
-    },
-    "23": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
-    },
-    "24": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
-    },
-    "25": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
-    },
-    "26": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
-    },
-    "27": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
-    },
-    "28": {
-        "name": "Wallstreeter Leather Laptop Sleeve",
-        "price": "4990",
-        "image": "/images/leather/products/41image.jpg"
+        "name": "Pick-Me-Up Wallet",
+        "price": "1990",
+        "image": "/images/leather/products/33image.jpg"
     }
 }
 
